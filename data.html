@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>myData</title>
+    </head>
+    <body>
+        <script>
+           
+            function yasim() {
+                
+                var d = new Date();
+                var b = new Date(1990,04,24); 
+
+                var yasadigimMilliSaniye = d.getTime-b.getTime;
+                var yasSaniye =Math.floor(yasadigimMilliSaniye/1000);
+                yasSalise=yasadigimMilliSaniye-yasSaniye*1000;
+
+                var yasDeqiqe =Math.floor(yasadigimMilliSaniye/1000/60);
+                var qaliqSaniye=yasSaniye-yasDeqiqe*60;
+
+                var yasSaat =Math.floor(yasadigimMilliSaniye/1000/60/60);
+                var qaliqDeqiqe =yasSaat-yasSaniye;
+
+
+                
+            }
+    
+
+   
+
+        </script>
+    </body>
